@@ -7,10 +7,14 @@
         <title>Bloodbowl League</title>
     </head>
     <body>
-        <h1>Liste des races</h1>
-        @foreach ($races as $race)
-            <li> {{ $race->name}}</li>
-      
-        @endforeach
+        <h1>creer une equipe</h1>
+        <form method="POST" action="/equipe/creer">
+            @csrf
+            <label>nom de l'equipe</label>
+            <input id="name" name="name" type="text" />
+            <input type="submit"/>
+        </form>
+              
     </body>
 </html>
+

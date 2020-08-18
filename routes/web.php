@@ -17,3 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/race', 'RaceController@list'); 
+Route::get('/equipe/creer', 'EquipeController@creer');
+Route::post('/equipe/creer', 'EquipeController@enregistrer');

@@ -72,6 +72,7 @@
                     Bloodbowl League
                 </div>
                 <div><a href="/race">Race</a></div>
+                <div><a href="/equipe/creer">Creer une equipe</a></div>
                 
             </div>
         </div>
