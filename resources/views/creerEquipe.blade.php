@@ -12,6 +12,13 @@
             @csrf
             <label>nom de l'equipe</label>
             <input id="name" name="name" type="text" />
+            
+            <label for="race-select">Choissez une race:</label>
+            <select name="race" id="race-select">
+                @foreach($races as $race)
+                    <option value="{{$race->id}}">{{$race->name}}</option>
+                @endforeach
+            </select>
             <input type="submit"/>
         </form>
               

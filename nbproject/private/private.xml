@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp64/www/bloodbowlleague/app/Http/Controllers/EquipeController.php</file>
+            <file>file:/C:/wamp64/www/bloodbowlleague/app/Equipe.php</file>
+            <file>file:/C:/wamp64/www/bloodbowlleague/resources/views/race.blade.php</file>
+            <file>file:/C:/wamp64/www/bloodbowlleague/resources/views/creerEquipe.blade.php</file>
+            <file>file:/C:/wamp64/www/bloodbowlleague/database/migrations/2020_08_18_142155_create_equipe_table.php</file>
+            <file>file:/C:/wamp64/www/bloodbowlleague/routes/web.php</file>
+            <file>file:/C:/wamp64/www/bloodbowlleague/resources/views/welcome.blade.php</file>
+            <file>file:/C:/wamp64/www/bloodbowlleague/database/migrations/2020_08_17_155320_create_race_table.php</file>
+        </group>
+    </open-files>
 </project-private>

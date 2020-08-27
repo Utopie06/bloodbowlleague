@@ -5,20 +5,23 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Equipe;
 use Illuminate\Http\Request;
+use App\Race;
 
 class EquipeController extends Controller
 {
     public function list(){
         return view('Equipe', ['equipes' => Equipe::all()]);
+        
     }
     public function creer(){
-        return view('creerEquipe');
+        return view('creerEquipe', ['races' => Race::all()]);
+        
     }    
     public function enregistrer(Request $request){
-        $input = $request->all();
-        print_r($input);
+        $input = $request->all();   
         $equipe = new Equipe;
         $equipe->name = $input['name'];
+        $equipe->race_id = $input['race'];
         $equipe->save();
         return view('welcome');  
     }   
