@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-    <p>This is my body content.</p>
+    <p>Bienvenu Jim</p>
 @endsection
