@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/race', 'RaceController@list'); 
 Route::get('/equipe/creer', 'EquipeController@creer');
 Route::post('/equipe/creer', 'EquipeController@enregistrer');
+Route::get('/equipe/modifier', 'EquipeController@modifier');
+Route::post('/equipe/modifier', 'EquipeController@afficherEquipe');
+Route::get('/equipe/{id}', 'EquipeController@afficher');

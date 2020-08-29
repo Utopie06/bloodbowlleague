@@ -33,6 +33,9 @@
                         <li class="nav-item">
                           <a class="nav-link" href="/equipe/creer">Creer une equipe</a>
                         </li>
+                         <li class="nav-item">
+                          <a class="nav-link" href="/equipe/modifier">Modifier une equipe</a>
+                        </li>
                         <li class="nav-item">
                           <a class="nav-link" href="/race">Race</a>
                         </li>
