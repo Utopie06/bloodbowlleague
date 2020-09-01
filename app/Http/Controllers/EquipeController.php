@@ -38,7 +38,7 @@ class EquipeController extends Controller
     }
     
     public function afficher($id){
-             return view('creerJoueur'); 
+             return view('creerJoueur', [ 'equipe' => $id]); 
     }
 }
 
