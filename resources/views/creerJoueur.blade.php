@@ -9,4 +9,11 @@
             <input id="equipe" name="equipe" type="hidden" value="{{$equipe}}" />
             <input type="submit"/>
         </form>
+     
+      <h4>Liste des joueurs de l'équipe:</h4>
+     
+        @foreach ($joueurs as $joueur)
+         <option value="{{$joueur->equipe_id}}"></option>
+             <li> {{ $joueur->name}}</li>
+        @endforeach
 @endsection

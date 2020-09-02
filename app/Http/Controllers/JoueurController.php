@@ -9,8 +9,9 @@ use App\Joueur;
 class JoueurController extends Controller
 
 {
-    public function list(){
-        return view('joueur', ['joueurs' => Joueur::all()]);
+    public function list($id){
+        $joueurs = Joueur::where('equipe_id', '=', $id)->get();
+        return view('creerJoueur', ['joueurs' => $joueurs , 'equipe' => $id]);
         
     }
     public function creer(){
@@ -21,7 +22,7 @@ class JoueurController extends Controller
     public function modifier(Request $request){
         return view('modifierEquipe', ['equipes' => Equipe::all()]);
     }
-    
+   
     public function enregistrer(Request $request){
         $input = $request->all();   
         $joueur = new Joueur;

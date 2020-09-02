@@ -13,5 +13,6 @@ Route::get('/equipe/creer', 'EquipeController@creer');
 Route::post('/equipe/creer', 'EquipeController@enregistrer');
 Route::get('/equipe/modifier', 'EquipeController@modifier');
 Route::post('/equipe/modifier', 'EquipeController@afficherEquipe');
-Route::get('/equipe/{id}', 'EquipeController@afficher');
+//Route::get('/equipe/{id}', 'EquipeController@afficher');
 Route::post('/joueur/creer', 'JoueurController@enregistrer');
+Route::get('/equipe/{id}', 'JoueurController@list');

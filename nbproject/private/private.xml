@@ -5,10 +5,8 @@
         <group>
             <file>file:/C:/wamp64/www/bloodbowlleague/app/Http/Controllers/EquipeController.php</file>
             <file>file:/C:/wamp64/www/bloodbowlleague/app/Equipe.php</file>
-            <file>file:/C:/wamp64/www/bloodbowlleague/resources/views/race.blade.php</file>
             <file>file:/C:/wamp64/www/bloodbowlleague/resources/views/layout.blade.php</file>
             <file>file:/C:/wamp64/www/bloodbowlleague/resources/views/creerEquipe.blade.php</file>
-            <file>file:/C:/wamp64/www/bloodbowlleague/app/Race.php</file>
             <file>file:/C:/wamp64/www/bloodbowlleague/resources/views/creerJoueur.blade.php</file>
             <file>file:/C:/wamp64/www/bloodbowlleague/routes/web.php</file>
             <file>file:/C:/wamp64/www/bloodbowlleague/resources/views/modifierEquipe.blade.php</file>
